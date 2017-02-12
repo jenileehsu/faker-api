@@ -1,4 +1,1 @@
-json.id @team.id
-json.state @team.state
-json.creature @team.creature
-json.sport @team.sport
+json.partial! 'team.json.jbuilder', team: @team
