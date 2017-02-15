@@ -1,7 +1,7 @@
 class Team < ApplicationRecord
   
   def team_name
-    creature
+    "#{state} #{creature}"
   end
 
 end
